@@ -8,14 +8,7 @@ export default class ImageSlider extends Component {
         this.state = {
             currentSlideIndex: 0
         }
-    }
-
-    // increment = () => {
-    //     const newCount = this.state.count + 1
-    //     this.setState({
-    //       count: newCount
-    //     })
-    // }    
+    }   
 
     render() {
         return (

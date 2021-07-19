@@ -11,13 +11,7 @@ export default class Bomb extends Component {
             secondsLeft: props.initialCount
         }
     }
-
-    // increment = () => {
-    //     const newCount = this.state.count + 1
-    //     this.setState({
-    //       count: newCount
-    //     })
-    // }    
+ 
     secondsLeftFunction = () => {
         return this.state.secondsLeft === 0 ? "Boom!" : `${this.state.secondsLeft} seconds left before I go boom!`
     }
